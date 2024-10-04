@@ -1,0 +1,221 @@
+ .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+
+/* Container Styling */
+.container {
+  max-width: 100%; /* Ensures the container does not exceed the screen size */
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding and borders are included in element's total width/height */
+  overflow-x: auto; /* Enables horizontal scrolling if the content overflows */
+}
+
+/* Input Field Styling */
+input[type="text"] {
+  width: 100%; /* Make the input take the full available width */
+  max-width: 300px; /* Set a maximum width for input fields to prevent overflow */
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Ensuring Input Fields and Placeholders Stay Inside the Container */
+table {
+  width: 100%;
+  table-layout: fixed; /* Ensures that columns do not expand beyond the container */
+  border-collapse: collapse;
+}
+
+td, th {
+  word-wrap: break-word; /* Prevents text from overflowing */
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px; /* Ensure space between input and error message */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-input {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -5px; /* Adjust this to control space between input and error */
+  /* display: block; */
+}
+
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px; /* Add some space below each input group */
+}
+
+.input-group input {
+  width: 100%; /* Full width */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Default border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensures padding is included in width */
+  height: 40px; /* Fixed height to prevent shifting */
+}
+
+.input-group .error {
+  position: absolute; /* Position error message absolutely */
+  color: red; /* Red color for error message */
+  font-size: 12px; /* Smaller font size */
+  bottom: -18px; /* Position below the input field */
+  left: 0; /* Align with the input field */
+  visibility: hidden; /* Initially hidden */
+}
+
+.input-group input.error-input {
+  border: 1px solid red; /* Highlight input with red border when there's an error */
+}
+
+.input-group input.error-input + .error {
+  visibility: visible; /* Show error message when input has error */
+}
+
+
+/* src/App.css */
+.donate-book-page {
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.input-group .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.add-book-button {
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+.new-book-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: calc(100% - 22px); /* Adjust for padding */
+}
+/* src/App.css */
+.donate-book-page {
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.input-group .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.add-book-button {
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+.new-book-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: calc(100% - 22px); /* Adjust for padding */
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+
+

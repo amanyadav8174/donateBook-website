@@ -1,13 +1,148 @@
+/* General Styling for the Page */
 body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
 }
+
+.donate-book-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Group Styling */
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 220px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Add Book Button */
+.add-book-button {
+  display: block;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.add-book-button:hover {
+  background-color: #357ab7;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Editable input styles in table */
+table input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Action buttons (edit, delete, save) */
+.edit-btn, .delete-btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.edit-btn:hover {
+  background-color: #357ab7;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+button:focus, input:focus {
+  outline: none;
+  border: 2px solid #4a90e2;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+/* Save Button */
+.save-btn {
+  background-color: #2ecc71;
+}
+
+.save-btn:hover {
+  background-color: #27ae60;
+}
+

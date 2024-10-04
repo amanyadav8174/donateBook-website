@@ -1,0 +1,16 @@
+{
+    "name": "John Doe",
+    "phone": "1234567890",
+    "email": "john.doe@example.com",
+    "books": [
+      {
+        "sno": 1,
+        "booktitle": "Sample Book",
+        "author": "Author Name",
+        "genre": "Fiction",
+        "yop": "2020",
+        "isbn": "123-4567890123"
+      }
+    ]
+  }
+  
